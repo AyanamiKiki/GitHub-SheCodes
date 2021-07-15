@@ -1,0 +1,98 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #353841;
+}
+li {
+  list-style: none;
+}
+ul {
+  padding: 20px 0px;
+}
+form {
+  padding: 12px 12px;
+  border-radius: 4px;
+  margin: 0px 0px 10px;
+}
+h3 {
+  margin: 0px;
+}
+#celsius:hover {
+  cursor: pointer;
+  color: #1e9df6;
+}
+#farenheit:hover {
+  cursor: pointer;
+  color: #1e9df6;
+}
+.change-city {
+  width: 270px;
+  box-shadow: 1px 1px 2px #000;
+}
+.title {
+  font-weight: bold;
+}
+.subtitle {
+  font-size: 24px;
+  margin: 15px 0px;
+}
+.today-date {
+  text-align: right;
+}
+.container {
+  max-width: 800px;
+  margin-top: 40px;
+  border: solid 2px;
+  padding: 30px 20px 0px;
+  border-color: black;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgb(78, 78, 78);
+}
+.extra-text {
+  text-align: right;
+  padding: 25% 0px;
+}
+.today-temp {
+  font-weight: bolder;
+}
+.search {
+  background-color: #d9edfe;
+  border-radius: 4px;
+  border-color: #42a5f5;
+  box-shadow: 1px 1px 3px #000;
+  margin: 0px 2px;
+}
+.current {
+  background-color: #dbe8bc;
+  border-radius: 4px;
+  border-color: #599737;
+  box-shadow: 1px 1px 3px #000;
+  margin: 0px 2px;
+}
+
+.day {
+  font-weight: bold;
+}
+.day-weather {
+  font-weight: lighter;
+}
+.fa-wind {
+  color: #18c3fa;
+}
+.fa-sun {
+  color: #fecc00;
+}
+.fa-cloud-sun-rain {
+  color: #7f9aa7;
+}
+.fa-umbrella {
+  color: #1d70f3;
+}
+.fa-cloud-sun {
+  color: #1d9df6;
+}
+.icon {
+  margin: 0px 5px 0px 0px;
+}
+.weekdays {
+  height: 200px;
+}
