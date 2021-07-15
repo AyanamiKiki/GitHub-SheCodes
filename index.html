@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+        crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/5175c14133.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,800;1,100;1,300;1,400;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h1 class="title">
+                    <i class="fas fa-cloud-sun icon"></i> <span id="temperature"></span>
+                    <span id="celsius">°C</span>
+                    /<span id="farenheit">°F</span>
+                    <span id="city">Tokyo</span>
+                </h1>
+                <h2 class="subtitle">Cloudy, possible rain</h2>
+            </div>
+            <div class="col-6 today-date">
+                <h3 id="month-date-year">June 12, 2021</h3>
+                <p id="day-time">Saturday, 4:45 PM</p>
+                <h3 class="today-temp">20°C / 9°C</h3>
+            </div>
+            <form id="search-form">
+                <input type="search" placeholder="Change city" autocomplete="off" id="city-input" class="change-city" />
+                <input type="submit" value="Search" id="search" class="search" />
+                <button id="current-location-button" class="current">Current
+                </button>
+                <hr />
+                <div class="row">
+                    <div class="col-6 weekdays">
+                        <ul>
+                            <li class="day">
+                                <i class="far fa-sun icon"></i> June 13, Sunday
+                                <p class="day-weather">25°C / 7°C, Sunny</p>
+                            </li>
+                            <li class="day">
+                                <i class="fas fa-umbrella icon"></i> June 14, Monday
+                                <p class="day-weather">21°C / 15°C, Rainy</p>
+                            </li>
+                            <li class="day">
+                                <i class="fas fa-cloud-sun-rain icon"></i> June 15, Tuesday
+                                <p class="day-weather">15°C / 7°C, Sun and rain</p>
+                            </li>
+                            <li class="day">
+                                <i class="far fa-sun icon"></i> June 16, Wednseday
+                                <p class="day-weather">27°C / 10°C, Sunny</p>
+                            </li>
+                            <li class="day">
+                                <i class="fas fa-wind icon"></i> June 17, Thursday
+                                <p class="day-weather">13°C / 5°C, Windy</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 extra-text weekdays">
+                        <p>Take your umbrella!</p>
+                    </div>
+                    <script src="js/index.js"></script>
+</body>
+
+</html>
